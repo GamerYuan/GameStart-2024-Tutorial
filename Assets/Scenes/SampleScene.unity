@@ -1930,7 +1930,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcad739930eb1914ab11116b211ef83c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
+  speed: 4
   jumpSpeed: 10
   groundLayer:
     serializedVersion: 2
