@@ -30,9 +30,10 @@ public class EnemyMovement : MonoBehaviour
         }
     }
 
-    private void OnDestroy()
+    public void Death()
     {
         Debug.Log("Enemy killed!");
         Instantiate(coinPrefab, transform.position, Quaternion.identity);
+        Destroy(gameObject);
     }
 }

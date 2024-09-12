@@ -47,7 +47,7 @@ public class PlayerInteraction : MonoBehaviour
             score += 100;
             scoreText.text = "Score: " + score;
             Debug.Log("Score: " + score);
-            Destroy(collision.transform.parent.gameObject);
+            collision.transform.parent.GetComponent<EnemyMovement>().Death();
             playerMovement.Jump();
         }
     }
