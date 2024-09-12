@@ -64,6 +64,7 @@ public class PlayerMovement : MonoBehaviour
         isJumping = true;
         jumpTimer = 0.1f;
         // Big change here
+        // I will make this a merge conflict
     }
 
     private bool IsGrounded()
