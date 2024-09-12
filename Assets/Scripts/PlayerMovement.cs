@@ -63,6 +63,7 @@ public class PlayerMovement : MonoBehaviour
         animator.SetBool("Jump", true);
         isJumping = true;
         jumpTimer = 0.1f;
+        // Big change here
     }
 
     private bool IsGrounded()
